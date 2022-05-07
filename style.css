@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body{
+   
+    background-image: url(https://i.pinimg.com/originals/dd/90/2c/dd902c4ea7095d2e18aa97628a268ece.jpg);
+    background-size: 100%;    
+}
+head{
+    padding: 20px 0;
+}
+
+.center{
+    display: flex;
+    flex-wrap:wrap;
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 2%;
+
+}
+.logo{
+    
+}
+.menu{
+    padding-top: 30px;
+    width: 50%;
+    text-align: start;
+
+}
+
+.menu a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 15px;
+}
+.efeito-vidro {
+    border: 0cm;
+    background-color: rgba(255, 255, 255, 0.100);
+    backdrop-filter: blur(15px);
+  }
